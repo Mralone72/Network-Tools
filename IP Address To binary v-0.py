@@ -1,0 +1,11 @@
+def b1(oc1,oc2,oc3,oc4):
+    ba = bin(oc1)
+    bb = bin(oc2)
+    bc = bin(oc3)
+    bd = bin(oc4)
+    print(f"The binary form of your Ip address is  : {ba+'.' + bb +'.'+ bc +'.'+bd +'.'}")
+oc1 = int(input('Enter first octed '))
+oc2 = int(input("enter Second Octed "))
+oc3 = int(input("enter third Octed "))
+oc4 = int(input("enter 4th octed "))
+b1(oc1, oc2, oc3, oc4)
